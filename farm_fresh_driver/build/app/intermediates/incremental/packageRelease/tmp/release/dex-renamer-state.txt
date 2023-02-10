@@ -1,0 +1,4 @@
+#Fri Jul 22 02:18:59 GMT 2022
+base.0=/home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

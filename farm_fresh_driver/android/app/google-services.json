@@ -1,0 +1,121 @@
+{
+  "project_info": {
+    "project_number": "161886996536",
+    "project_id": "farm-fresh-gambia-826fb",
+    "storage_bucket": "farm-fresh-gambia-826fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161886996536:android:03293429c548e4ba7b3ecd",
+        "android_client_info": {
+          "package_name": "com.mohamedndiayefarmfreshdriverssapp.farmfreshdriversapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161886996536-rgit739htoddlh9jq1kabc0elbb9ue8d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mohamedndiayefarmfreshdriverssapp.farmfreshdriversapp",
+            "certificate_hash": "8c2a52da09e9522aa8246904da1cd67e1836095e"
+          }
+        },
+        {
+          "client_id": "161886996536-j3pin7tc76ib2n3caebp4uk1m9pue0al.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNZijTsK7jFp2viNcfnLpKLQisMcQlgjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161886996536-j3pin7tc76ib2n3caebp4uk1m9pue0al.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161886996536:android:e943e6786a48ebc67b3ecd",
+        "android_client_info": {
+          "package_name": "com.mohamedndiayefarmfreshsellersapp.sellersappfarmfresh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161886996536-odgrra48qp6v6d87ulpk7ccetns1s5et.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mohamedndiayefarmfreshsellersapp.sellersappfarmfresh",
+            "certificate_hash": "8c2a52da09e9522aa8246904da1cd67e1836095e"
+          }
+        },
+        {
+          "client_id": "161886996536-j3pin7tc76ib2n3caebp4uk1m9pue0al.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNZijTsK7jFp2viNcfnLpKLQisMcQlgjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161886996536-j3pin7tc76ib2n3caebp4uk1m9pue0al.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161886996536:android:a9047fc4ff72408f7b3ecd",
+        "android_client_info": {
+          "package_name": "com.mohamedndiayefarmfreshusersapp.farmfreshusersapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161886996536-nvn9t7g86gh439f7jgbnp1gkhs2e6ch9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mohamedndiayefarmfreshusersapp.farmfreshusersapp",
+            "certificate_hash": "8c2a52da09e9522aa8246904da1cd67e1836095e"
+          }
+        },
+        {
+          "client_id": "161886996536-j3pin7tc76ib2n3caebp4uk1m9pue0al.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNZijTsK7jFp2viNcfnLpKLQisMcQlgjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161886996536-j3pin7tc76ib2n3caebp4uk1m9pue0al.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

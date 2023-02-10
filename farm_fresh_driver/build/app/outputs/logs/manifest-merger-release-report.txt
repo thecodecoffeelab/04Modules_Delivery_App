@@ -1,0 +1,726 @@
+-- Merging decision tree log ---
+application
+INJECTED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:6:4-36:19
+MERGED from [:cloud_firestore] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:cloud_firestore] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_auth] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_auth] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_storage] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_storage] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:geolocator_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-17:19
+MERGED from [:geolocator_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-17:19
+MERGED from [:image_picker_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-19:19
+MERGED from [:image_picker_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-19:19
+MERGED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-36:19
+MERGED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-36:19
+MERGED from [:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:14:5-28:19
+MERGED from [:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:14:5-28:19
+MERGED from [:url_launcher_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-14:19
+MERGED from [:url_launcher_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-14:19
+MERGED from [androidx.window:window:1.0.0-beta04] /home/mhdtech5/.gradle/caches/transforms-3/898cbb911d0e06d2c9dea240545edf75/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /home/mhdtech5/.gradle/caches/transforms-3/898cbb911d0e06d2c9dea240545edf75/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.firebase:firebase-firestore:24.2.1] /home/mhdtech5/.gradle/caches/transforms-3/bb555c9231a94ee710e63023ab7f1607/transformed/jetified-firebase-firestore-24.2.1/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:24.2.1] /home/mhdtech5/.gradle/caches/transforms-3/bb555c9231a94ee710e63023ab7f1607/transformed/jetified-firebase-firestore-24.2.1/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /home/mhdtech5/.gradle/caches/transforms-3/dc14137b21e04c5c7da9b28cce72b4c7/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /home/mhdtech5/.gradle/caches/transforms-3/dc14137b21e04c5c7da9b28cce72b4c7/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /home/mhdtech5/.gradle/caches/transforms-3/bb45834760aa4c1631633b996badfe22/transformed/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /home/mhdtech5/.gradle/caches/transforms-3/bb45834760aa4c1631633b996badfe22/transformed/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/mhdtech5/.gradle/caches/transforms-3/fa0784be403a785b7c70fc818359564e/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/mhdtech5/.gradle/caches/transforms-3/fa0784be403a785b7c70fc818359564e/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /home/mhdtech5/.gradle/caches/transforms-3/361614e9ca911f20112e2fe2e741c358/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /home/mhdtech5/.gradle/caches/transforms-3/361614e9ca911f20112e2fe2e741c358/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/mhdtech5/.gradle/caches/transforms-3/2cd4ccc86f646eef8798c1d218c6e9eb/transformed/jetified-play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/mhdtech5/.gradle/caches/transforms-3/2cd4ccc86f646eef8798c1d218c6e9eb/transformed/jetified-play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/mhdtech5/.gradle/caches/transforms-3/50fed732dafe5981ec3c1dee45150c49/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/mhdtech5/.gradle/caches/transforms-3/50fed732dafe5981ec3c1dee45150c49/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/mhdtech5/.gradle/caches/transforms-3/c961ed94b4c08b113cd6707f193ad0e9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/mhdtech5/.gradle/caches/transforms-3/c961ed94b4c08b113cd6707f193ad0e9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/mhdtech5/.gradle/caches/transforms-3/fb7993f6a936784590492ffc8fce977a/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/mhdtech5/.gradle/caches/transforms-3/fb7993f6a936784590492ffc8fce977a/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/mhdtech5/.gradle/caches/transforms-3/c2575f76685653f464e22af621461390/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/mhdtech5/.gradle/caches/transforms-3/c2575f76685653f464e22af621461390/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/mhdtech5/.gradle/caches/transforms-3/d1c32b1c74d9fbc2dad83513438f2124/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/mhdtech5/.gradle/caches/transforms-3/d1c32b1c74d9fbc2dad83513438f2124/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.8.0] /home/mhdtech5/.gradle/caches/transforms-3/feadf51cdffd08d0049cb746009a9522/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] /home/mhdtech5/.gradle/caches/transforms-3/feadf51cdffd08d0049cb746009a9522/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/5fe53bc4c2f72b9667ef95c553198a6e/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/5fe53bc4c2f72b9667ef95c553198a6e/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/mhdtech5/.gradle/caches/transforms-3/6d1c3b8f6bd91089db4f552b38385514/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/mhdtech5/.gradle/caches/transforms-3/6d1c3b8f6bd91089db4f552b38385514/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /home/mhdtech5/.gradle/caches/transforms-3/493d3c9a7ceb04173e588e2aa2f4d38c/transformed/jetified-threetenabp-1.2.3/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /home/mhdtech5/.gradle/caches/transforms-3/493d3c9a7ceb04173e588e2aa2f4d38c/transformed/jetified-threetenabp-1.2.3/AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] /home/mhdtech5/.gradle/caches/transforms-3/feadf51cdffd08d0049cb746009a9522/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:7:9-42
+	android:icon
+		ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:9:9-43
+	android:name
+		INJECTED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:8:9-42
+manifest
+ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:1:1-37:12
+INJECTED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:1:1-37:12
+INJECTED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:1:1-37:12
+INJECTED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:1:1-37:12
+MERGED from [:cloud_firestore] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_auth] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_storage] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_core] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:geolocator_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-19:12
+MERGED from [:image_picker_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-21:12
+MERGED from [:flutter_plugin_android_lifecycle] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-38:12
+MERGED from [:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-30:12
+MERGED from [:url_launcher_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-16:12
+MERGED from [:shared_preferences_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:geocoding] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/geocoding/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:fluttertoast] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.multidex:multidex:2.0.0] /home/mhdtech5/.gradle/caches/transforms-3/19c2addc77a9b3f8566c6804366b0253/transformed/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/mhdtech5/.gradle/caches/transforms-3/28daf90d95404355e6e365bb554f1b5f/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /home/mhdtech5/.gradle/caches/transforms-3/898cbb911d0e06d2c9dea240545edf75/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:17:1-73:12
+MERGED from [com.google.firebase:firebase-firestore:24.2.1] /home/mhdtech5/.gradle/caches/transforms-3/bb555c9231a94ee710e63023ab7f1607/transformed/jetified-firebase-firestore-24.2.1/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /home/mhdtech5/.gradle/caches/transforms-3/dc14137b21e04c5c7da9b28cce72b4c7/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /home/mhdtech5/.gradle/caches/transforms-3/bb45834760aa4c1631633b996badfe22/transformed/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/mhdtech5/.gradle/caches/transforms-3/fa0784be403a785b7c70fc818359564e/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.1.1] /home/mhdtech5/.gradle/caches/transforms-3/361614e9ca911f20112e2fe2e741c358/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:15:1-40:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/1dd61fac18119d01bcdd3234085234d6/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/798dc526e003fdaf7ad4abfa24f12de1/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/5839108541d1295778cc07886dee5fcd/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /home/mhdtech5/.gradle/caches/transforms-3/dfb429d50d50cb8518bee627b5860e7f/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/5d71fff3944adf358157c41a3fe80b7d/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/mhdtech5/.gradle/caches/transforms-3/2cd4ccc86f646eef8798c1d218c6e9eb/transformed/jetified-play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/mhdtech5/.gradle/caches/transforms-3/e07d297d40330626f886a82606b50c55/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/mhdtech5/.gradle/caches/transforms-3/9095fd7bd4bff87c68a7fccfd6d50658/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/mhdtech5/.gradle/caches/transforms-3/50fed732dafe5981ec3c1dee45150c49/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/mhdtech5/.gradle/caches/transforms-3/c961ed94b4c08b113cd6707f193ad0e9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/mhdtech5/.gradle/caches/transforms-3/fb7993f6a936784590492ffc8fce977a/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/mhdtech5/.gradle/caches/transforms-3/c2575f76685653f464e22af621461390/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/mhdtech5/.gradle/caches/transforms-3/d1c32b1c74d9fbc2dad83513438f2124/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/mhdtech5/.gradle/caches/transforms-3/94ae142c4c0d3eb11b30a2a0330a9942/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/3775731993ce5714df66b606a351dcce/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/77bbc8a90881ecdef0717718fdaf3375/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/6f4aa0c10e61465615a7f01b8297b206/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/6896a508e6dd9fbf0a144e010df97c50/transformed/lifecycle-reactivestreams-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.1.0] /home/mhdtech5/.gradle/caches/transforms-3/93312aa1cc755b2acdf9fe9188f61582/transformed/media-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] /home/mhdtech5/.gradle/caches/transforms-3/6ba587f18e0cfb42db299785e64a7064/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/0330e5f9c0068e349e75bee944e36243/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/f23b959e3e6646095f7aaf2667531a1c/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/836f5a3fcfbac7b0ddb6567cf709aded/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/1c32afb892d8e0e919446465801e0e87/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/f38285a8eecb9100ac2cb7be6a3f747f/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/70d10ea4802f822fdfbd17cda6b55140/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/0b06c5dc8e9aee8a3d6bca24c7654106/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.8.0] /home/mhdtech5/.gradle/caches/transforms-3/feadf51cdffd08d0049cb746009a9522/transformed/core-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /home/mhdtech5/.gradle/caches/transforms-3/3dcbd583674bf172fbcdc37fd669f4fd/transformed/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/540d754fefb5c2f38ef437f8000557b8/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/mhdtech5/.gradle/caches/transforms-3/16b7fc2f4e947e2f1e0e0a6b2760f004/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/2edf9069505a8bdc134f9b7e96f49bdd/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/0f9b2149b5f7cd780798ecf924961484/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/46928df9fb6a100f3a79c46a3b6e0dce/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/5fe53bc4c2f72b9667ef95c553198a6e/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/mhdtech5/.gradle/caches/transforms-3/78a619fb1eadedad460d1eeb589b77d5/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/mhdtech5/.gradle/caches/transforms-3/700dac1466a6c1ad9c1b8aa38b9c1f26/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/3ce884f48eb8ad58e2ee6b80af7bd957/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/mhdtech5/.gradle/caches/transforms-3/6d1c3b8f6bd91089db4f552b38385514/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/70a0ce51f03c05a6e433c99af904d058/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/efe0a16846c0ea995a87b0bd2f00721e/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/b58505769f0db2bfba92660d7769fd5c/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/bc9c5b8f90fcc2d7a2a2298856f78229/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.grpc:grpc-android:1.44.1] /home/mhdtech5/.gradle/caches/transforms-3/8229426d58ea266afe4d31fa5ab6a7a9/transformed/jetified-grpc-android-1.44.1/AndroidManifest.xml:2:1-11:12
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:2:1-52:12
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /home/mhdtech5/.gradle/caches/transforms-3/493d3c9a7ceb04173e588e2aa2f4d38c/transformed/jetified-threetenabp-1.2.3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/mhdtech5/.gradle/caches/transforms-3/7cc24522ff0917cb4ad57c151e4ec26b/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/mhdtech5/.gradle/caches/transforms-3/ce3349bb877d5ae4849e3cc416f462b3/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:1:1-37:12
+INJECTED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:1:1-37:12
+INJECTED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:1:1-37:12
+	package
+		ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:2:5-44
+		INJECTED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:1:1-37:12
+		INJECTED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:1:1-37:12
+		INJECTED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:3:5-79
+	android:name
+		ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:3:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:4:5-81
+	android:name
+		ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:4:22-78
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:5:22-74
+uses-sdk
+INJECTED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml
+MERGED from [:cloud_firestore] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:cloud_firestore] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_storage] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_storage] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:geolocator_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:geolocator_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:image_picker_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:image_picker_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:geocoding] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/geocoding/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:geocoding] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/geocoding/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:fluttertoast] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:fluttertoast] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.multidex:multidex:2.0.0] /home/mhdtech5/.gradle/caches/transforms-3/19c2addc77a9b3f8566c6804366b0253/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /home/mhdtech5/.gradle/caches/transforms-3/19c2addc77a9b3f8566c6804366b0253/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/mhdtech5/.gradle/caches/transforms-3/28daf90d95404355e6e365bb554f1b5f/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/mhdtech5/.gradle/caches/transforms-3/28daf90d95404355e6e365bb554f1b5f/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /home/mhdtech5/.gradle/caches/transforms-3/898cbb911d0e06d2c9dea240545edf75/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /home/mhdtech5/.gradle/caches/transforms-3/898cbb911d0e06d2c9dea240545edf75/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-firestore:24.2.1] /home/mhdtech5/.gradle/caches/transforms-3/bb555c9231a94ee710e63023ab7f1607/transformed/jetified-firebase-firestore-24.2.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:24.2.1] /home/mhdtech5/.gradle/caches/transforms-3/bb555c9231a94ee710e63023ab7f1607/transformed/jetified-firebase-firestore-24.2.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /home/mhdtech5/.gradle/caches/transforms-3/dc14137b21e04c5c7da9b28cce72b4c7/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /home/mhdtech5/.gradle/caches/transforms-3/dc14137b21e04c5c7da9b28cce72b4c7/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /home/mhdtech5/.gradle/caches/transforms-3/bb45834760aa4c1631633b996badfe22/transformed/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /home/mhdtech5/.gradle/caches/transforms-3/bb45834760aa4c1631633b996badfe22/transformed/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/mhdtech5/.gradle/caches/transforms-3/fa0784be403a785b7c70fc818359564e/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/mhdtech5/.gradle/caches/transforms-3/fa0784be403a785b7c70fc818359564e/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.1.1] /home/mhdtech5/.gradle/caches/transforms-3/361614e9ca911f20112e2fe2e741c358/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.1.1] /home/mhdtech5/.gradle/caches/transforms-3/361614e9ca911f20112e2fe2e741c358/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/1dd61fac18119d01bcdd3234085234d6/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/1dd61fac18119d01bcdd3234085234d6/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/798dc526e003fdaf7ad4abfa24f12de1/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/798dc526e003fdaf7ad4abfa24f12de1/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/5839108541d1295778cc07886dee5fcd/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/5839108541d1295778cc07886dee5fcd/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /home/mhdtech5/.gradle/caches/transforms-3/dfb429d50d50cb8518bee627b5860e7f/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /home/mhdtech5/.gradle/caches/transforms-3/dfb429d50d50cb8518bee627b5860e7f/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/5d71fff3944adf358157c41a3fe80b7d/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/5d71fff3944adf358157c41a3fe80b7d/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/mhdtech5/.gradle/caches/transforms-3/2cd4ccc86f646eef8798c1d218c6e9eb/transformed/jetified-play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/mhdtech5/.gradle/caches/transforms-3/2cd4ccc86f646eef8798c1d218c6e9eb/transformed/jetified-play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/mhdtech5/.gradle/caches/transforms-3/e07d297d40330626f886a82606b50c55/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/mhdtech5/.gradle/caches/transforms-3/e07d297d40330626f886a82606b50c55/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/mhdtech5/.gradle/caches/transforms-3/9095fd7bd4bff87c68a7fccfd6d50658/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/mhdtech5/.gradle/caches/transforms-3/9095fd7bd4bff87c68a7fccfd6d50658/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/mhdtech5/.gradle/caches/transforms-3/50fed732dafe5981ec3c1dee45150c49/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/mhdtech5/.gradle/caches/transforms-3/50fed732dafe5981ec3c1dee45150c49/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/mhdtech5/.gradle/caches/transforms-3/c961ed94b4c08b113cd6707f193ad0e9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/mhdtech5/.gradle/caches/transforms-3/c961ed94b4c08b113cd6707f193ad0e9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/mhdtech5/.gradle/caches/transforms-3/fb7993f6a936784590492ffc8fce977a/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/mhdtech5/.gradle/caches/transforms-3/fb7993f6a936784590492ffc8fce977a/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/mhdtech5/.gradle/caches/transforms-3/c2575f76685653f464e22af621461390/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/mhdtech5/.gradle/caches/transforms-3/c2575f76685653f464e22af621461390/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/mhdtech5/.gradle/caches/transforms-3/d1c32b1c74d9fbc2dad83513438f2124/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/mhdtech5/.gradle/caches/transforms-3/d1c32b1c74d9fbc2dad83513438f2124/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] /home/mhdtech5/.gradle/caches/transforms-3/94ae142c4c0d3eb11b30a2a0330a9942/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/mhdtech5/.gradle/caches/transforms-3/94ae142c4c0d3eb11b30a2a0330a9942/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/3775731993ce5714df66b606a351dcce/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/3775731993ce5714df66b606a351dcce/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/77bbc8a90881ecdef0717718fdaf3375/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/77bbc8a90881ecdef0717718fdaf3375/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/6f4aa0c10e61465615a7f01b8297b206/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/6f4aa0c10e61465615a7f01b8297b206/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/6896a508e6dd9fbf0a144e010df97c50/transformed/lifecycle-reactivestreams-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/6896a508e6dd9fbf0a144e010df97c50/transformed/lifecycle-reactivestreams-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /home/mhdtech5/.gradle/caches/transforms-3/93312aa1cc755b2acdf9fe9188f61582/transformed/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /home/mhdtech5/.gradle/caches/transforms-3/93312aa1cc755b2acdf9fe9188f61582/transformed/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /home/mhdtech5/.gradle/caches/transforms-3/6ba587f18e0cfb42db299785e64a7064/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /home/mhdtech5/.gradle/caches/transforms-3/6ba587f18e0cfb42db299785e64a7064/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/0330e5f9c0068e349e75bee944e36243/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/0330e5f9c0068e349e75bee944e36243/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/f23b959e3e6646095f7aaf2667531a1c/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/f23b959e3e6646095f7aaf2667531a1c/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/836f5a3fcfbac7b0ddb6567cf709aded/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/836f5a3fcfbac7b0ddb6567cf709aded/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/1c32afb892d8e0e919446465801e0e87/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/1c32afb892d8e0e919446465801e0e87/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/f38285a8eecb9100ac2cb7be6a3f747f/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/f38285a8eecb9100ac2cb7be6a3f747f/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/70d10ea4802f822fdfbd17cda6b55140/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/70d10ea4802f822fdfbd17cda6b55140/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/0b06c5dc8e9aee8a3d6bca24c7654106/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/0b06c5dc8e9aee8a3d6bca24c7654106/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.8.0] /home/mhdtech5/.gradle/caches/transforms-3/feadf51cdffd08d0049cb746009a9522/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /home/mhdtech5/.gradle/caches/transforms-3/feadf51cdffd08d0049cb746009a9522/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /home/mhdtech5/.gradle/caches/transforms-3/3dcbd583674bf172fbcdc37fd669f4fd/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /home/mhdtech5/.gradle/caches/transforms-3/3dcbd583674bf172fbcdc37fd669f4fd/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/540d754fefb5c2f38ef437f8000557b8/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/540d754fefb5c2f38ef437f8000557b8/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/mhdtech5/.gradle/caches/transforms-3/16b7fc2f4e947e2f1e0e0a6b2760f004/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/mhdtech5/.gradle/caches/transforms-3/16b7fc2f4e947e2f1e0e0a6b2760f004/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/2edf9069505a8bdc134f9b7e96f49bdd/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/2edf9069505a8bdc134f9b7e96f49bdd/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/0f9b2149b5f7cd780798ecf924961484/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/0f9b2149b5f7cd780798ecf924961484/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/46928df9fb6a100f3a79c46a3b6e0dce/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/46928df9fb6a100f3a79c46a3b6e0dce/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/5fe53bc4c2f72b9667ef95c553198a6e/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/5fe53bc4c2f72b9667ef95c553198a6e/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/mhdtech5/.gradle/caches/transforms-3/78a619fb1eadedad460d1eeb589b77d5/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/mhdtech5/.gradle/caches/transforms-3/78a619fb1eadedad460d1eeb589b77d5/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/mhdtech5/.gradle/caches/transforms-3/700dac1466a6c1ad9c1b8aa38b9c1f26/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/mhdtech5/.gradle/caches/transforms-3/700dac1466a6c1ad9c1b8aa38b9c1f26/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/3ce884f48eb8ad58e2ee6b80af7bd957/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/3ce884f48eb8ad58e2ee6b80af7bd957/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/mhdtech5/.gradle/caches/transforms-3/6d1c3b8f6bd91089db4f552b38385514/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/mhdtech5/.gradle/caches/transforms-3/6d1c3b8f6bd91089db4f552b38385514/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/70a0ce51f03c05a6e433c99af904d058/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/70a0ce51f03c05a6e433c99af904d058/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/efe0a16846c0ea995a87b0bd2f00721e/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/efe0a16846c0ea995a87b0bd2f00721e/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/b58505769f0db2bfba92660d7769fd5c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/b58505769f0db2bfba92660d7769fd5c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/bc9c5b8f90fcc2d7a2a2298856f78229/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/mhdtech5/.gradle/caches/transforms-3/bc9c5b8f90fcc2d7a2a2298856f78229/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [io.grpc:grpc-android:1.44.1] /home/mhdtech5/.gradle/caches/transforms-3/8229426d58ea266afe4d31fa5ab6a7a9/transformed/jetified-grpc-android-1.44.1/AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.44.1] /home/mhdtech5/.gradle/caches/transforms-3/8229426d58ea266afe4d31fa5ab6a7a9/transformed/jetified-grpc-android-1.44.1/AndroidManifest.xml:5:5-7:41
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /home/mhdtech5/.gradle/caches/transforms-3/493d3c9a7ceb04173e588e2aa2f4d38c/transformed/jetified-threetenabp-1.2.3/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /home/mhdtech5/.gradle/caches/transforms-3/493d3c9a7ceb04173e588e2aa2f4d38c/transformed/jetified-threetenabp-1.2.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/mhdtech5/.gradle/caches/transforms-3/7cc24522ff0917cb4ad57c151e4ec26b/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/mhdtech5/.gradle/caches/transforms-3/7cc24522ff0917cb4ad57c151e4ec26b/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/mhdtech5/.gradle/caches/transforms-3/ce3349bb877d5ae4849e3cc416f462b3/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/mhdtech5/.gradle/caches/transforms-3/ce3349bb877d5ae4849e3cc416f462b3/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml
+activity#com.example.farm_fresh_driver.MainActivity
+ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:10:9-30:20
+	android:launchMode
+		ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:13:13-43
+	android:hardwareAccelerated
+		ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:16:13-47
+	android:windowSoftInputMode
+		ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:17:13-55
+	android:exported
+		ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:12:13-36
+	android:configChanges
+		ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:15:13-163
+	android:theme
+		ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:14:13-47
+	android:name
+		ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:11:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:22:13-25:17
+	android:resource
+		ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:24:15-52
+	android:name
+		ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:23:15-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:26:13-29:29
+action#android.intent.action.MAIN
+ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:27:17-68
+	android:name
+		ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:28:17-76
+	android:name
+		ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:28:27-74
+meta-data#flutterEmbedding
+ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:33:9-35:33
+	android:value
+		ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:35:13-30
+	android:name
+		ADDED from /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:34:13-44
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:cloud_firestore] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_auth] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_auth] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_storage] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_storage] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:64:9-70:19
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:64:9-70:19
+MERGED from [com.google.firebase:firebase-firestore:24.2.1] /home/mhdtech5/.gradle/caches/transforms-3/bb555c9231a94ee710e63023ab7f1607/transformed/jetified-firebase-firestore-24.2.1/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.2.1] /home/mhdtech5/.gradle/caches/transforms-3/bb555c9231a94ee710e63023ab7f1607/transformed/jetified-firebase-firestore-24.2.1/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /home/mhdtech5/.gradle/caches/transforms-3/dc14137b21e04c5c7da9b28cce72b4c7/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /home/mhdtech5/.gradle/caches/transforms-3/dc14137b21e04c5c7da9b28cce72b4c7/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /home/mhdtech5/.gradle/caches/transforms-3/361614e9ca911f20112e2fe2e741c358/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.1.1] /home/mhdtech5/.gradle/caches/transforms-3/361614e9ca911f20112e2fe2e741c358/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:66:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /home/mhdtech5/.gradle/caches/transforms-3/361614e9ca911f20112e2fe2e741c358/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /home/mhdtech5/.gradle/caches/transforms-3/361614e9ca911f20112e2fe2e741c358/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [:cloud_firestore] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
+ADDED from [:cloud_firestore] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:cloud_firestore] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:cloud_firestore] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-134
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
+ADDED from [:firebase_auth] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_auth] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_auth] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_storage] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_storage] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_storage] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-126
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_core] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_core] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:geolocator_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from [:geolocator_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-74
+service#com.baseflow.geolocator.GeolocatorLocationService
+ADDED from [:geolocator_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:56
+	android:enabled
+		ADDED from [:geolocator_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-35
+	android:exported
+		ADDED from [:geolocator_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-37
+	android:foregroundServiceType
+		ADDED from [:geolocator_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-53
+	android:name
+		ADDED from [:geolocator_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-77
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:image_picker_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:image_picker_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+	android:exported
+		ADDED from [:image_picker_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:image_picker_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+	android:resource
+		ADDED from [:image_picker_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+	android:name
+		ADDED from [:image_picker_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+MERGED from [:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+MERGED from [:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
+MERGED from [:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
+MERGED from [:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-63
+receiver#me.carda.awesome_notifications.notifications.broadcastReceivers.DismissedNotificationReceiver
+ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:13:9-15:40
+	android:exported
+		ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-121
+receiver#me.carda.awesome_notifications.notifications.broadcastReceivers.ScheduledNotificationReceiver
+ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-18:40
+	android:exported
+		ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-121
+receiver#me.carda.awesome_notifications.notifications.broadcastReceivers.KeepOnTopActionReceiver
+ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-115
+receiver#me.carda.awesome_notifications.notifications.broadcastReceivers.RefreshSchedulesReceiver
+ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:9-35:20
+	android:exported
+		ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-116
+intent-filter#action:name:android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED+action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.LOCKED_BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON+category:name:android.intent.category.DEFAULT
+ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-34:29
+category#android.intent.category.DEFAULT
+ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-76
+	android:name
+		ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:27-73
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-79
+	android:name
+		ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-76
+action#android.intent.action.LOCKED_BOOT_COMPLETED
+ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-86
+	android:name
+		ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:25-83
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:30:17-84
+	android:name
+		ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:30:25-81
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:31:17-82
+	android:name
+		ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:31:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:32:25-79
+action#android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED
+ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-107
+	android:name
+		ADDED from [:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-104
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from [:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from [:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:22-76
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver
+ADDED from [:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-17:40
+	android:exported
+		ADDED from [:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-97
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver
+ADDED from [:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-27:20
+	android:exported
+		ADDED from [:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-101
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-26:29
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+	android:exported
+		ADDED from [:url_launcher_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [:url_launcher_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+	android:name
+		ADDED from [:url_launcher_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /home/mhdtech5/.gradle/caches/transforms-3/898cbb911d0e06d2c9dea240545edf75/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/mhdtech5/.gradle/caches/transforms-3/898cbb911d0e06d2c9dea240545edf75/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/mhdtech5/.gradle/caches/transforms-3/898cbb911d0e06d2c9dea240545edf75/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /home/mhdtech5/.gradle/caches/transforms-3/898cbb911d0e06d2c9dea240545edf75/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/mhdtech5/.gradle/caches/transforms-3/898cbb911d0e06d2c9dea240545edf75/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/mhdtech5/.gradle/caches/transforms-3/898cbb911d0e06d2c9dea240545edf75/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.2.1] /home/mhdtech5/.gradle/caches/transforms-3/bb555c9231a94ee710e63023ab7f1607/transformed/jetified-firebase-firestore-24.2.1/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.2.1] /home/mhdtech5/.gradle/caches/transforms-3/bb555c9231a94ee710e63023ab7f1607/transformed/jetified-firebase-firestore-24.2.1/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /home/mhdtech5/.gradle/caches/transforms-3/dc14137b21e04c5c7da9b28cce72b4c7/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /home/mhdtech5/.gradle/caches/transforms-3/dc14137b21e04c5c7da9b28cce72b4c7/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:27:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:23:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.2.1] /home/mhdtech5/.gradle/caches/transforms-3/bb555c9231a94ee710e63023ab7f1607/transformed/jetified-firebase-firestore-24.2.1/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.2.1] /home/mhdtech5/.gradle/caches/transforms-3/bb555c9231a94ee710e63023ab7f1607/transformed/jetified-firebase-firestore-24.2.1/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /home/mhdtech5/.gradle/caches/transforms-3/dc14137b21e04c5c7da9b28cce72b4c7/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /home/mhdtech5/.gradle/caches/transforms-3/dc14137b21e04c5c7da9b28cce72b4c7/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:26:5-79
+MERGED from [io.grpc:grpc-android:1.44.1] /home/mhdtech5/.gradle/caches/transforms-3/8229426d58ea266afe4d31fa5ab6a7a9/transformed/jetified-grpc-android-1.44.1/AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.44.1] /home/mhdtech5/.gradle/caches/transforms-3/8229426d58ea266afe4d31fa5ab6a7a9/transformed/jetified-grpc-android-1.44.1/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:24:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:33:13-43:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:34:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:37:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:39:17-42:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:41:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:40:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:42:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:51:13-61:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:67:13-69:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:69:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:68:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.2.1] /home/mhdtech5/.gradle/caches/transforms-3/bb555c9231a94ee710e63023ab7f1607/transformed/jetified-firebase-firestore-24.2.1/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.2.1] /home/mhdtech5/.gradle/caches/transforms-3/bb555c9231a94ee710e63023ab7f1607/transformed/jetified-firebase-firestore-24.2.1/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.2.1] /home/mhdtech5/.gradle/caches/transforms-3/bb555c9231a94ee710e63023ab7f1607/transformed/jetified-firebase-firestore-24.2.1/AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.0.1] /home/mhdtech5/.gradle/caches/transforms-3/dc14137b21e04c5c7da9b28cce72b4c7/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.0.1] /home/mhdtech5/.gradle/caches/transforms-3/dc14137b21e04c5c7da9b28cce72b4c7/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.0.1] /home/mhdtech5/.gradle/caches/transforms-3/dc14137b21e04c5c7da9b28cce72b4c7/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:34:17-107
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.1.1] /home/mhdtech5/.gradle/caches/transforms-3/361614e9ca911f20112e2fe2e741c358/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /home/mhdtech5/.gradle/caches/transforms-3/361614e9ca911f20112e2fe2e741c358/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /home/mhdtech5/.gradle/caches/transforms-3/361614e9ca911f20112e2fe2e741c358/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /home/mhdtech5/.gradle/caches/transforms-3/361614e9ca911f20112e2fe2e741c358/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /home/mhdtech5/.gradle/caches/transforms-3/361614e9ca911f20112e2fe2e741c358/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /home/mhdtech5/.gradle/caches/transforms-3/361614e9ca911f20112e2fe2e741c358/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/mhdtech5/.gradle/caches/transforms-3/c961ed94b4c08b113cd6707f193ad0e9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/mhdtech5/.gradle/caches/transforms-3/c961ed94b4c08b113cd6707f193ad0e9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/mhdtech5/.gradle/caches/transforms-3/c961ed94b4c08b113cd6707f193ad0e9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/mhdtech5/.gradle/caches/transforms-3/c961ed94b4c08b113cd6707f193ad0e9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /home/mhdtech5/.gradle/caches/transforms-3/d1c32b1c74d9fbc2dad83513438f2124/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /home/mhdtech5/.gradle/caches/transforms-3/d1c32b1c74d9fbc2dad83513438f2124/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /home/mhdtech5/.gradle/caches/transforms-3/d1c32b1c74d9fbc2dad83513438f2124/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/5fe53bc4c2f72b9667ef95c553198a6e/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/5fe53bc4c2f72b9667ef95c553198a6e/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/5fe53bc4c2f72b9667ef95c553198a6e/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/5fe53bc4c2f72b9667ef95c553198a6e/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/5fe53bc4c2f72b9667ef95c553198a6e/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86

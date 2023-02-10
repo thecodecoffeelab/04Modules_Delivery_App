@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_res/release/drawable/notification_tile_bg.xml",
+        "source": "/home/mhdtech5/.gradle/caches/transforms-3/7106aa1dd35a09802dfc515286fc1a77/transformed/core-1.7.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_res/release/drawable/notification_bg_low.xml",
+        "source": "/home/mhdtech5/.gradle/caches/transforms-3/7106aa1dd35a09802dfc515286fc1a77/transformed/core-1.7.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_res/release/drawable/notification_bg.xml",
+        "source": "/home/mhdtech5/.gradle/caches/transforms-3/7106aa1dd35a09802dfc515286fc1a77/transformed/core-1.7.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_res/release/drawable/notification_icon_background.xml",
+        "source": "/home/mhdtech5/.gradle/caches/transforms-3/7106aa1dd35a09802dfc515286fc1a77/transformed/core-1.7.0/res/drawable/notification_icon_background.xml"
+    }
+]

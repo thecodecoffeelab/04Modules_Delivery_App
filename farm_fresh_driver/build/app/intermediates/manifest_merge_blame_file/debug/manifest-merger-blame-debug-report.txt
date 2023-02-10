@@ -1,0 +1,432 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mohamedndiayefarmfreshdriverssapp.farmfreshdriversapp"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/debug/AndroidManifest.xml:7:5-66
+15-->/home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/debug/AndroidManifest.xml:7:22-64
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:3:5-79
+16-->/home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:3:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:4:5-81
+17-->/home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:4:22-78
+18    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+18-->/home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:5:5-77
+18-->/home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/android/app/src/main/AndroidManifest.xml:5:22-74
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->[:geolocator_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-77
+19-->[:geolocator_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-74
+20    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+20-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+20-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+21    <uses-permission android:name="android.permission.VIBRATE" />
+21-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-66
+21-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-63
+22    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+22-->[:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-81
+22-->[:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-78
+23    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+23-->[:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-79
+23-->[:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:22-76
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- for android -->
+24-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:24:5-79
+24-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:24:22-76
+25    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+26    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+27    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+28    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+29    <!-- for Samsung -->
+30    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+30-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+30-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+31    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+31-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+31-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+32    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+32-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+32-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+33    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+33-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+33-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+34    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+34-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+34-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+35    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+35-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+35-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+36    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+36-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+36-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+37    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+37-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+37-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+38    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+38-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+38-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+39    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+39-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+39-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+40    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+40-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+40-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+41    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+41-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+41-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+42    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+42-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+42-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+43    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+43-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+43-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+44    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+44-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+44-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+45    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+45-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+45-->[me.leolin:ShortcutBadger:1.1.22] /home/mhdtech5/.gradle/caches/transforms-3/440dfcfd2b96ed56bef03d2b55e8a7fc/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+46
+47    <application
+48        android:name="android.app.Application"
+49        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+49-->[androidx.core:core:1.8.0] /home/mhdtech5/.gradle/caches/transforms-3/feadf51cdffd08d0049cb746009a9522/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+50        android:debuggable="true"
+51        android:icon="@mipmap/ic_launcher"
+52        android:label="farm_fresh_driver" >
+53        <activity
+54            android:name="com.example.farm_fresh_driver.MainActivity"
+55            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+56            android:exported="true"
+57            android:hardwareAccelerated="true"
+58            android:launchMode="singleTop"
+59            android:theme="@style/LaunchTheme"
+60            android:windowSoftInputMode="adjustResize" >
+61
+62            <!--
+63                 Specifies an Android theme to apply to this Activity as soon as
+64                 the Android process has started. This theme is visible to the user
+65                 while the Flutter UI initializes. After that, this theme continues
+66                 to determine the Window background behind the Flutter UI.
+67            -->
+68            <meta-data
+69                android:name="io.flutter.embedding.android.NormalTheme"
+70                android:resource="@style/NormalTheme" />
+71
+72            <intent-filter>
+73                <action android:name="android.intent.action.MAIN" />
+74
+75                <category android:name="android.intent.category.LAUNCHER" />
+76            </intent-filter>
+77        </activity>
+78        <!--
+79             Don't delete the meta-data below.
+80             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+81        -->
+82        <meta-data
+83            android:name="flutterEmbedding"
+84            android:value="2" />
+85
+86        <service
+86-->[:cloud_firestore] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+87            android:name="com.google.firebase.components.ComponentDiscoveryService"
+87-->[:cloud_firestore] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+88            android:directBootAware="true"
+88-->[com.google.firebase:firebase-common:20.1.1] /home/mhdtech5/.gradle/caches/transforms-3/361614e9ca911f20112e2fe2e741c358/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+89            android:exported="false" >
+89-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:66:13-37
+90            <meta-data
+90-->[:cloud_firestore] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+91                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+91-->[:cloud_firestore] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-134
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[:cloud_firestore] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+93            <meta-data
+93-->[:firebase_auth] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+94                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+94-->[:firebase_auth] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[:firebase_auth] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+96            <meta-data
+96-->[:firebase_storage] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+97                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+97-->[:firebase_storage] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-126
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[:firebase_storage] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+99            <meta-data
+99-->[:firebase_core] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+100                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+100-->[:firebase_core] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[:firebase_core] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:67:13-69:85
+103                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+103-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:68:17-109
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:69:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-firestore:24.2.1] /home/mhdtech5/.gradle/caches/transforms-3/bb555c9231a94ee710e63023ab7f1607/transformed/jetified-firebase-firestore-24.2.1/AndroidManifest.xml:20:13-22:85
+106                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+106-->[com.google.firebase:firebase-firestore:24.2.1] /home/mhdtech5/.gradle/caches/transforms-3/bb555c9231a94ee710e63023ab7f1607/transformed/jetified-firebase-firestore-24.2.1/AndroidManifest.xml:21:17-111
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-firestore:24.2.1] /home/mhdtech5/.gradle/caches/transforms-3/bb555c9231a94ee710e63023ab7f1607/transformed/jetified-firebase-firestore-24.2.1/AndroidManifest.xml:22:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-storage:20.0.1] /home/mhdtech5/.gradle/caches/transforms-3/dc14137b21e04c5c7da9b28cce72b4c7/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:33:13-35:85
+109                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+109-->[com.google.firebase:firebase-storage:20.0.1] /home/mhdtech5/.gradle/caches/transforms-3/dc14137b21e04c5c7da9b28cce72b4c7/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:34:17-107
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-storage:20.0.1] /home/mhdtech5/.gradle/caches/transforms-3/dc14137b21e04c5c7da9b28cce72b4c7/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:35:17-82
+111        </service>
+112        <service
+112-->[:geolocator_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-16:56
+113            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+113-->[:geolocator_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-77
+114            android:enabled="true"
+114-->[:geolocator_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-35
+115            android:exported="false"
+115-->[:geolocator_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-37
+116            android:foregroundServiceType="location" />
+116-->[:geolocator_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-53
+117
+118        <provider
+118-->[:image_picker_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+119            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+119-->[:image_picker_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+120            android:authorities="com.mohamedndiayefarmfreshdriverssapp.farmfreshdriversapp.flutter.image_provider"
+120-->[:image_picker_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+121            android:exported="false"
+121-->[:image_picker_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+122            android:grantUriPermissions="true" >
+122-->[:image_picker_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+123            <meta-data
+123-->[:image_picker_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+124                android:name="android.support.FILE_PROVIDER_PATHS"
+124-->[:image_picker_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+125                android:resource="@xml/flutter_image_picker_file_paths" />
+125-->[:image_picker_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+126        </provider>
+127
+128        <receiver
+128-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-15:40
+129            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.DismissedNotificationReceiver"
+129-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-121
+130            android:exported="false" />
+130-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-37
+131        <receiver
+131-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-18:40
+132            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.ScheduledNotificationReceiver"
+132-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-121
+133            android:exported="false" />
+133-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+134        <receiver
+134-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-21:40
+135            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.KeepOnTopActionReceiver"
+135-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-115
+136            android:exported="false" />
+136-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+137        <receiver
+137-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:9-35:20
+138            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.RefreshSchedulesReceiver"
+138-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-116
+139            android:exported="false" >
+139-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-37
+140            <intent-filter>
+140-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-34:29
+141                <category android:name="android.intent.category.DEFAULT" />
+141-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:17-76
+141-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:27-73
+142
+143                <action android:name="android.intent.action.BOOT_COMPLETED" />
+143-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-79
+143-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-76
+144                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+144-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-86
+144-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:25-83
+145                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+145-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-84
+145-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-81
+146                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+146-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:31:17-82
+146-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:31:25-79
+147                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+147-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:32:17-82
+147-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:32:25-79
+148                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+148-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-107
+148-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-104
+149            </intent-filter>
+150        </receiver>
+151        <receiver
+151-->[:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-17:40
+152            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+152-->[:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-97
+153            android:exported="false" />
+153-->[:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
+154        <receiver
+154-->[:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-27:20
+155            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+155-->[:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-101
+156            android:exported="false" >
+156-->[:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-37
+157            <intent-filter>
+157-->[:flutter_local_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-26:29
+158                <action android:name="android.intent.action.BOOT_COMPLETED" />
+158-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-79
+158-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-76
+159                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+159-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-84
+159-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-81
+160                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+160-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:31:17-82
+160-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:31:25-79
+161                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+161-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:32:17-82
+161-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:32:25-79
+162            </intent-filter>
+163        </receiver>
+164
+165        <activity
+165-->[:url_launcher_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+166            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+166-->[:url_launcher_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+167            android:exported="false"
+167-->[:url_launcher_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+168            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+168-->[:url_launcher_android] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+169
+170        <uses-library
+170-->[androidx.window:window:1.0.0-beta04] /home/mhdtech5/.gradle/caches/transforms-3/898cbb911d0e06d2c9dea240545edf75/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+171            android:name="androidx.window.extensions"
+171-->[androidx.window:window:1.0.0-beta04] /home/mhdtech5/.gradle/caches/transforms-3/898cbb911d0e06d2c9dea240545edf75/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+172            android:required="false" />
+172-->[androidx.window:window:1.0.0-beta04] /home/mhdtech5/.gradle/caches/transforms-3/898cbb911d0e06d2c9dea240545edf75/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+173        <uses-library
+173-->[androidx.window:window:1.0.0-beta04] /home/mhdtech5/.gradle/caches/transforms-3/898cbb911d0e06d2c9dea240545edf75/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+174            android:name="androidx.window.sidecar"
+174-->[androidx.window:window:1.0.0-beta04] /home/mhdtech5/.gradle/caches/transforms-3/898cbb911d0e06d2c9dea240545edf75/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+175            android:required="false" />
+175-->[androidx.window:window:1.0.0-beta04] /home/mhdtech5/.gradle/caches/transforms-3/898cbb911d0e06d2c9dea240545edf75/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+176
+177        <activity
+177-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:27:9-44:20
+178            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+178-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:28:13-80
+179            android:excludeFromRecents="true"
+179-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:29:13-46
+180            android:exported="true"
+180-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:30:13-36
+181            android:launchMode="singleTask"
+181-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:31:13-44
+182            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+182-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:32:13-72
+183            <intent-filter>
+183-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:33:13-43:29
+184                <action android:name="android.intent.action.VIEW" />
+184-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:34:17-69
+184-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:34:25-66
+185
+186                <category android:name="android.intent.category.DEFAULT" />
+186-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:17-76
+186-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:27-73
+187                <category android:name="android.intent.category.BROWSABLE" />
+187-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:37:17-78
+187-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:37:27-75
+188
+189                <data
+189-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:39:17-42:51
+190                    android:host="firebase.auth"
+190-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:40:21-49
+191                    android:path="/"
+191-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:41:21-37
+192                    android:scheme="genericidp" />
+192-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:42:21-48
+193            </intent-filter>
+194        </activity>
+195        <activity
+195-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:45:9-62:20
+196            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+196-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:46:13-79
+197            android:excludeFromRecents="true"
+197-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:47:13-46
+198            android:exported="true"
+198-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:48:13-36
+199            android:launchMode="singleTask"
+199-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:49:13-44
+200            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+200-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:50:13-72
+201            <intent-filter>
+201-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:51:13-61:29
+202                <action android:name="android.intent.action.VIEW" />
+202-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:34:17-69
+202-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:34:25-66
+203
+204                <category android:name="android.intent.category.DEFAULT" />
+204-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:17-76
+204-->[:awesome_notifications] /home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/awesome_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:27-73
+205                <category android:name="android.intent.category.BROWSABLE" />
+205-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:37:17-78
+205-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:37:27-75
+206
+207                <data
+207-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:39:17-42:51
+208                    android:host="firebase.auth"
+208-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:40:21-49
+209                    android:path="/"
+209-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:41:21-37
+210                    android:scheme="recaptcha" />
+210-->[com.google.firebase:firebase-auth:21.0.6] /home/mhdtech5/.gradle/caches/transforms-3/17b17765e7786016ac9835624ca4d8c2/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:42:21-48
+211            </intent-filter>
+212        </activity>
+213
+214        <provider
+214-->[com.google.firebase:firebase-common:20.1.1] /home/mhdtech5/.gradle/caches/transforms-3/361614e9ca911f20112e2fe2e741c358/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+215            android:name="com.google.firebase.provider.FirebaseInitProvider"
+215-->[com.google.firebase:firebase-common:20.1.1] /home/mhdtech5/.gradle/caches/transforms-3/361614e9ca911f20112e2fe2e741c358/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+216            android:authorities="com.mohamedndiayefarmfreshdriverssapp.farmfreshdriversapp.firebaseinitprovider"
+216-->[com.google.firebase:firebase-common:20.1.1] /home/mhdtech5/.gradle/caches/transforms-3/361614e9ca911f20112e2fe2e741c358/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+217            android:directBootAware="true"
+217-->[com.google.firebase:firebase-common:20.1.1] /home/mhdtech5/.gradle/caches/transforms-3/361614e9ca911f20112e2fe2e741c358/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+218            android:exported="false"
+218-->[com.google.firebase:firebase-common:20.1.1] /home/mhdtech5/.gradle/caches/transforms-3/361614e9ca911f20112e2fe2e741c358/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+219            android:initOrder="100" />
+219-->[com.google.firebase:firebase-common:20.1.1] /home/mhdtech5/.gradle/caches/transforms-3/361614e9ca911f20112e2fe2e741c358/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+220
+221        <activity
+221-->[com.google.android.gms:play-services-base:18.0.1] /home/mhdtech5/.gradle/caches/transforms-3/c961ed94b4c08b113cd6707f193ad0e9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+222            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+222-->[com.google.android.gms:play-services-base:18.0.1] /home/mhdtech5/.gradle/caches/transforms-3/c961ed94b4c08b113cd6707f193ad0e9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+223            android:exported="false"
+223-->[com.google.android.gms:play-services-base:18.0.1] /home/mhdtech5/.gradle/caches/transforms-3/c961ed94b4c08b113cd6707f193ad0e9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+224            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+224-->[com.google.android.gms:play-services-base:18.0.1] /home/mhdtech5/.gradle/caches/transforms-3/c961ed94b4c08b113cd6707f193ad0e9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+225
+226        <meta-data
+226-->[com.google.android.gms:play-services-basement:18.0.0] /home/mhdtech5/.gradle/caches/transforms-3/d1c32b1c74d9fbc2dad83513438f2124/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+227            android:name="com.google.android.gms.version"
+227-->[com.google.android.gms:play-services-basement:18.0.0] /home/mhdtech5/.gradle/caches/transforms-3/d1c32b1c74d9fbc2dad83513438f2124/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+228            android:value="@integer/google_play_services_version" />
+228-->[com.google.android.gms:play-services-basement:18.0.0] /home/mhdtech5/.gradle/caches/transforms-3/d1c32b1c74d9fbc2dad83513438f2124/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+229
+230        <provider
+230-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/5fe53bc4c2f72b9667ef95c553198a6e/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+231            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+231-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/5fe53bc4c2f72b9667ef95c553198a6e/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+232            android:authorities="com.mohamedndiayefarmfreshdriverssapp.farmfreshdriversapp.lifecycle-process"
+232-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/5fe53bc4c2f72b9667ef95c553198a6e/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+233            android:exported="false"
+233-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/5fe53bc4c2f72b9667ef95c553198a6e/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+234            android:multiprocess="true" />
+234-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/mhdtech5/.gradle/caches/transforms-3/5fe53bc4c2f72b9667ef95c553198a6e/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+235    </application>
+236
+237</manifest>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_storage/intermediates/merged_res/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/home/mhdtech5/.gradle/caches/transforms-3/c961ed94b4c08b113cd6707f193ad0e9/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_storage/intermediates/merged_res/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/home/mhdtech5/.gradle/caches/transforms-3/c961ed94b4c08b113cd6707f193ad0e9/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/mhdtech5/Desktop/Farm_Fresh_Gambia/farm_fresh_driver/build/firebase_storage/intermediates/merged_res/release/color/common_google_signin_btn_tint.xml",
+        "source": "/home/mhdtech5/.gradle/caches/transforms-3/c961ed94b4c08b113cd6707f193ad0e9/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_tint.xml"
+    }
+]
